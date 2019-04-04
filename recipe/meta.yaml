@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/practicalci/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: d1ba03c6aad9e100b838df4b58d9c5223fd2800fb281387b13ff7dd7d4f400af
+  sha256: 40c1dd3c8a10ecb25a1a974e8badc495ec6270251ae62c010eef5ab60bc4246d
 
 build:
   noarch: python
