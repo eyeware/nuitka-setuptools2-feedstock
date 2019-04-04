@@ -1,7 +1,1 @@
-channels:
-  sources:
-  - conda-forge
-  - defaults
-  targets:
-  - - eyeware
-    - main
+[]
