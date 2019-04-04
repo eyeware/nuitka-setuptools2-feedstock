@@ -1,0 +1,52 @@
+{% set name = "nuitka-setuptools2" %}
+{% set version = "3.0.0" %}
+{% set nuitka_version = "0.6" %}
+
+package:
+  name: {{ name|lower }}
+  version: {{ version }}
+
+source:
+  url: https://github.com/practicalci/{{ name }}/archive/v{{ version }}.tar.gz
+  sha256: d1ba03c6aad9e100b838df4b58d9c5223fd2800fb281387b13ff7dd7d4f400af
+
+build:
+  noarch: python
+  number: 0
+  script:
+    - pip install . --no-deps -vv
+
+requirements:
+  host:
+    - python
+    - pip
+    - setuptools
+  run:
+    - python
+    - nuitka>={{ nuitka_version }}
+
+#test:
+#  source_files: 
+#    - tests
+#  requires:
+#    - python
+#    - nuitka>={{ nuitka_version }}
+#    - cmake
+#    - swig
+#    - {{ compiler('cxx') }}
+
+about:
+  license: Apache-2.0
+  license_family: Apache
+  license_file: LICENSE.txt
+  summary: 'Nuitka setuptools extension.'
+  description: |
+    Extension to setuptools to run your package through nuitka to produce 
+    compiled, faster, obfuscated binary modules.
+  doc_url: https://github.com/practicalci/nuitka-setuptools/blob/master/README.rst
+  dev_url: https://github.com/practicalci/nuitka-setuptools
+
+extra:
+  recipe-maintainers:
+    - mjscosta
+
