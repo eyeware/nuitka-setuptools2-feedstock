@@ -30,18 +30,18 @@ Current release info
 
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
-| [![Conda Recipe](https://img.shields.io/badge/recipe-nuitka--setuptools2-green.svg)](https://anaconda.org/conda-forge/nuitka-setuptools2) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/nuitka-setuptools2.svg)](https://anaconda.org/conda-forge/nuitka-setuptools2) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/nuitka-setuptools2.svg)](https://anaconda.org/conda-forge/nuitka-setuptools2) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/nuitka-setuptools2.svg)](https://anaconda.org/conda-forge/nuitka-setuptools2) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-nuitka--setuptools2-green.svg)](https://anaconda.org/eyeware/nuitka-setuptools2) | [![Conda Downloads](https://img.shields.io/conda/dn/eyeware/nuitka-setuptools2.svg)](https://anaconda.org/eyeware/nuitka-setuptools2) | [![Conda Version](https://img.shields.io/conda/vn/eyeware/nuitka-setuptools2.svg)](https://anaconda.org/eyeware/nuitka-setuptools2) | [![Conda Platforms](https://img.shields.io/conda/pn/eyeware/nuitka-setuptools2.svg)](https://anaconda.org/eyeware/nuitka-setuptools2) |
 
 Installing nuitka-setuptools2
 =============================
 
-Installing `nuitka-setuptools2` from the `conda-forge` channel can be achieved by adding `conda-forge` to your channels with:
+Installing `nuitka-setuptools2` from the `eyeware` channel can be achieved by adding `eyeware` to your channels with:
 
 ```
-conda config --add channels conda-forge
+conda config --add channels eyeware
 ```
 
-Once the `conda-forge` channel has been enabled, `nuitka-setuptools2` can be installed with:
+Once the `eyeware` channel has been enabled, `nuitka-setuptools2` can be installed with:
 
 ```
 conda install nuitka-setuptools2
@@ -50,7 +50,7 @@ conda install nuitka-setuptools2
 It is possible to list all of the versions of `nuitka-setuptools2` available on your platform with:
 
 ```
-conda search nuitka-setuptools2 --channel conda-forge
+conda search nuitka-setuptools2 --channel eyeware
 ```
 
 
