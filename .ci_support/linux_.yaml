@@ -3,7 +3,7 @@ build_number_decrement:
 channel_sources:
 - conda-forge,defaults
 channel_targets:
-- conda-forge main
+- eyeware main
 docker_image:
 - condaforge/linux-anvil-comp7
 pin_run_as_build:
@@ -12,3 +12,6 @@ pin_run_as_build:
     max_pin: x.x
 python:
 - '2.7'
+- '3.5'
+- '3.6'
+- '3.7'
